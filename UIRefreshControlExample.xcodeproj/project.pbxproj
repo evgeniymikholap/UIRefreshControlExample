@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8422BDF0164AED9C003F14F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8422BDEF164AED9C003F14F1 /* UIKit.framework */; };
+		8422BDF2164AED9C003F14F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8422BDF1164AED9C003F14F1 /* Foundation.framework */; };
+		8422BDF4164AED9C003F14F1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8422BDF3164AED9C003F14F1 /* CoreGraphics.framework */; };
+		8422BDFA164AED9C003F14F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8422BDF8164AED9C003F14F1 /* InfoPlist.strings */; };
+		8422BDFC164AED9C003F14F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422BDFB164AED9C003F14F1 /* main.m */; };
+		8422BE00164AED9C003F14F1 /* URCEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422BDFF164AED9C003F14F1 /* URCEAppDelegate.m */; };
+		8422BE02164AED9C003F14F1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8422BE01164AED9C003F14F1 /* Default.png */; };
+		8422BE04164AED9C003F14F1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8422BE03164AED9C003F14F1 /* Default@2x.png */; };
+		8422BE06164AED9C003F14F1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8422BE05164AED9C003F14F1 /* Default-568h@2x.png */; };
+		8422BE09164AED9C003F14F1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8422BE07164AED9C003F14F1 /* MainStoryboard.storyboard */; };
+		8422BE0C164AED9C003F14F1 /* URCEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8422BE0B164AED9C003F14F1 /* URCEViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8422BDEB164AED9C003F14F1 /* UIRefreshControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIRefreshControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8422BDEF164AED9C003F14F1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8422BDF1164AED9C003F14F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8422BDF3164AED9C003F14F1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8422BDF7164AED9C003F14F1 /* UIRefreshControlExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIRefreshControlExample-Info.plist"; sourceTree = "<group>"; };
+		8422BDF9164AED9C003F14F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8422BDFB164AED9C003F14F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8422BDFD164AED9C003F14F1 /* UIRefreshControlExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIRefreshControlExample-Prefix.pch"; sourceTree = "<group>"; };
+		8422BDFE164AED9C003F14F1 /* URCEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URCEAppDelegate.h; sourceTree = "<group>"; };
+		8422BDFF164AED9C003F14F1 /* URCEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URCEAppDelegate.m; sourceTree = "<group>"; };
+		8422BE01164AED9C003F14F1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8422BE03164AED9C003F14F1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8422BE05164AED9C003F14F1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8422BE08164AED9C003F14F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8422BE0A164AED9C003F14F1 /* URCEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URCEViewController.h; sourceTree = "<group>"; };
+		8422BE0B164AED9C003F14F1 /* URCEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = URCEViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8422BDE8164AED9C003F14F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8422BDF0164AED9C003F14F1 /* UIKit.framework in Frameworks */,
+				8422BDF2164AED9C003F14F1 /* Foundation.framework in Frameworks */,
+				8422BDF4164AED9C003F14F1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8422BDE0164AED9C003F14F1 = {
+			isa = PBXGroup;
+			children = (
+				8422BDF5164AED9C003F14F1 /* UIRefreshControlExample */,
+				8422BDEE164AED9C003F14F1 /* Frameworks */,
+				8422BDEC164AED9C003F14F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8422BDEC164AED9C003F14F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8422BDEB164AED9C003F14F1 /* UIRefreshControlExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8422BDEE164AED9C003F14F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8422BDEF164AED9C003F14F1 /* UIKit.framework */,
+				8422BDF1164AED9C003F14F1 /* Foundation.framework */,
+				8422BDF3164AED9C003F14F1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8422BDF5164AED9C003F14F1 /* UIRefreshControlExample */ = {
+			isa = PBXGroup;
+			children = (
+				8422BDFE164AED9C003F14F1 /* URCEAppDelegate.h */,
+				8422BDFF164AED9C003F14F1 /* URCEAppDelegate.m */,
+				8422BE07164AED9C003F14F1 /* MainStoryboard.storyboard */,
+				8422BE0A164AED9C003F14F1 /* URCEViewController.h */,
+				8422BE0B164AED9C003F14F1 /* URCEViewController.m */,
+				8422BDF6164AED9C003F14F1 /* Supporting Files */,
+			);
+			path = UIRefreshControlExample;
+			sourceTree = "<group>";
+		};
+		8422BDF6164AED9C003F14F1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8422BDF7164AED9C003F14F1 /* UIRefreshControlExample-Info.plist */,
+				8422BDF8164AED9C003F14F1 /* InfoPlist.strings */,
+				8422BDFB164AED9C003F14F1 /* main.m */,
+				8422BDFD164AED9C003F14F1 /* UIRefreshControlExample-Prefix.pch */,
+				8422BE01164AED9C003F14F1 /* Default.png */,
+				8422BE03164AED9C003F14F1 /* Default@2x.png */,
+				8422BE05164AED9C003F14F1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8422BDEA164AED9C003F14F1 /* UIRefreshControlExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8422BE0F164AED9C003F14F1 /* Build configuration list for PBXNativeTarget "UIRefreshControlExample" */;
+			buildPhases = (
+				8422BDE7164AED9C003F14F1 /* Sources */,
+				8422BDE8164AED9C003F14F1 /* Frameworks */,
+				8422BDE9164AED9C003F14F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UIRefreshControlExample;
+			productName = UIRefreshControlExample;
+			productReference = 8422BDEB164AED9C003F14F1 /* UIRefreshControlExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8422BDE2164AED9C003F14F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = URCE;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Evgeniy Mikholap";
+			};
+			buildConfigurationList = 8422BDE5164AED9C003F14F1 /* Build configuration list for PBXProject "UIRefreshControlExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8422BDE0164AED9C003F14F1;
+			productRefGroup = 8422BDEC164AED9C003F14F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8422BDEA164AED9C003F14F1 /* UIRefreshControlExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8422BDE9164AED9C003F14F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8422BDFA164AED9C003F14F1 /* InfoPlist.strings in Resources */,
+				8422BE02164AED9C003F14F1 /* Default.png in Resources */,
+				8422BE04164AED9C003F14F1 /* Default@2x.png in Resources */,
+				8422BE06164AED9C003F14F1 /* Default-568h@2x.png in Resources */,
+				8422BE09164AED9C003F14F1 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8422BDE7164AED9C003F14F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8422BDFC164AED9C003F14F1 /* main.m in Sources */,
+				8422BE00164AED9C003F14F1 /* URCEAppDelegate.m in Sources */,
+				8422BE0C164AED9C003F14F1 /* URCEViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8422BDF8164AED9C003F14F1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8422BDF9164AED9C003F14F1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8422BE07164AED9C003F14F1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8422BE08164AED9C003F14F1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8422BE0D164AED9C003F14F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8422BE0E164AED9C003F14F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8422BE10164AED9C003F14F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRefreshControlExample/UIRefreshControlExample-Prefix.pch";
+				INFOPLIST_FILE = "UIRefreshControlExample/UIRefreshControlExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8422BE11164AED9C003F14F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIRefreshControlExample/UIRefreshControlExample-Prefix.pch";
+				INFOPLIST_FILE = "UIRefreshControlExample/UIRefreshControlExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8422BDE5164AED9C003F14F1 /* Build configuration list for PBXProject "UIRefreshControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8422BE0D164AED9C003F14F1 /* Debug */,
+				8422BE0E164AED9C003F14F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8422BE0F164AED9C003F14F1 /* Build configuration list for PBXNativeTarget "UIRefreshControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8422BE10164AED9C003F14F1 /* Debug */,
+				8422BE11164AED9C003F14F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8422BDE2164AED9C003F14F1 /* Project object */;
+}
